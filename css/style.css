@@ -545,7 +545,8 @@ body {
         @media only screen and (max-width: 1023px) {
           body section.agenda .section-title {
             font-size: 58px;
-            margin-bottom: 48px; } }
+            margin-bottom: 48px;
+            letter-spacing: 6px; } }
       body section.agenda .content-wrap .calendar-table .table-row {
         margin-bottom: 2px; }
         body section.agenda .content-wrap .calendar-table .table-row .columns {
