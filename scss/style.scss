@@ -18,9 +18,9 @@ body {
        overflow: hidden; 
        position: relative;
        &::before {
-        @include after-content(1440px, 845px);
+        @include after-content(100%, 845px);
         background-image: url(../images/footer-bg.png);
-        background-size: contain;
+        background-size: cover;
         bottom: 0px;
         left: 0px;
         z-index: -1;
@@ -867,9 +867,10 @@ body {
             padding-top: 39px;
             background-size: cover;
             &::before {
-                @include after-content(1440px, 836px);
+                @include after-content(100%, 836px);
                 background-image: url(../images/partners-bg.png);
-                background-size: contain;
+                background-size: cover;
+                background-repeat: no-repeat;
                 top: -232px;
                 left: 0px;
                 z-index: -1;
